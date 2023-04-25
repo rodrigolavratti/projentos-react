@@ -9,6 +9,7 @@ import { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 
 // Redux
+import { login, reset } from '../../slices/authSlice';
 
 const Login = () => {
   const [email, setEmail] = useState("");
